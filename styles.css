@@ -128,3 +128,33 @@ h1 {
     font-weight: bold;
     padding-left: 500px;
 }
+
+/* SECTION FOUR */
+.cta-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882f6;
+    margin: 100px 200px;
+    border-radius: 15px;
+    padding: 50px 0;
+}
+
+h3 {
+    font-size: 20px;
+    color: #f9faf8;
+}
+
+.cta-message {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.cta-button {
+    border-radius: 6px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 5px 30px;
+    border: 2px solid #f9faf8;
+}
