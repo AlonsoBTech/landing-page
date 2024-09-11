@@ -89,14 +89,14 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
     font-size: 18px;
     margin: 0 auto 100px auto;
     text-align: center;
 }
 
 .sample-box {
-    max-width: 300px;
+    max-width: 250px;
 }
 
 .sample-img {
@@ -104,4 +104,27 @@ h1 {
     height: 250px;
     border: 2px solid #3882f6;
     border-radius: 15px;
+}
+
+/* SECTION THREE */
+.quote-content {
+    text-align: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    margin: 150px auto;
+}
+
+.quote-message {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.quoter {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 500px;
 }
