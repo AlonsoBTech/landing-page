@@ -270,15 +270,14 @@ h3 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin: 30px 10px;
     }
     .cta-content{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: left;
-        gap: 50px;
+        gap: 30px;
+        margin: 50px 30px;
+        padding: 20px;
     }
     .cta-message{
         margin-top: 10px;
