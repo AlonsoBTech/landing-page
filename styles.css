@@ -1,12 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Georgia" sans-serif;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    font-family: "Roboto" sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 .s1-container {
@@ -29,12 +36,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style-type: none;
     gap: 20px;
 }
 
 .nav-bar a {
-    text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -97,11 +102,12 @@ h1 {
 
 .sample-box {
     max-width: 250px;
+    font-size: 18px;
 }
 
 .sample-img {
     width: 250px;
-    height: 250px;
+    height: 200px;
     border: 2px solid #3882f6;
     border-radius: 15px;
 }
@@ -165,4 +171,92 @@ h3 {
     font-size: 18px;
     color: #e5e7eb;
     padding: 20px;
+}
+
+@media(max-width: 1280px){
+    .cta-content{
+        padding: 50px 50px;
+    }
+}
+
+@media(max-width: 768px) {
+    .welcome-button{
+        font-size: 20px;
+        padding: 10px 40px;
+    }
+    .welcome-content{
+        padding: 30px;
+    }
+    .logo{
+        font-size: 28px;
+    }
+    .nav-bar a {
+        font-size: 22px;
+    }
+    .sample-content{
+        padding: 10px;
+    }
+    .sample-box{
+        font-size: 22px;
+    }
+    .welcome-para{
+        font-size: 22px;
+    }
+    .sample-items{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .quote-content{
+        padding: 20px;
+    }
+    .cta-content{
+        margin: 100px 50px;
+        padding: 50px 20px;
+    }
+    .cta-message{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 26px;
+    }    
+}
+
+@media(max-width: 600px){
+    .s1-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .welcome-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .welcome-intro{
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .welcome-img{
+        padding: 10px;
+        margin: 10px;
+        max-width: 100vw;
+    }
+    .sample-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .quote{
+        text-align: center;
+    }
+    .quoter{
+        text-align: center;
+    }
+    .cta-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+    .cta-message{
+        margin-top: 10px;
+    }
+
 }
